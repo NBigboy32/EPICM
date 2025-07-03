@@ -1,0 +1,111 @@
+.page {
+    display: none;
+}
+.active {
+    display: block;
+}
+body {
+    grid-template-rows: auto 2fr auto;
+    grid-template-columns: 2ft 1fr 1fr 1fr;
+    gap: 100px;
+    height: 100vh;
+    margin: 1;
+    background-color: aqua;
+    background-image: url(Epic_The_Musical_Album_Cover.webp);
+
+}
+header {
+    margin: -2px;
+    background-image: url(Epic_logo.webp);
+    background-position: center;
+    padding: 60px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10xp;
+}
+.section {
+    padding: 1px;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 20px;
+}
+.section h2{
+    text-align: center;
+}
+.section {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.section.B {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.section.C {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 20px;
+}
+.class{
+    background-color: azure;
+}
+.section.D {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.Troy_Saga{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+h3{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h4{
+    font-size: large;
+    font-weight: bolder;
+}
+p{
+    font-size: larger;
+    font-weight: bolder;
+}
+button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
